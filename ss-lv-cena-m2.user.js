@@ -3,7 +3,8 @@
 // @namespace    https://violentmonkey.github.io/
 // @version      1.1
 // @description  Redirect any SS.lv flats page without “.html” to the proper sort‐key URL, insert a “Cena, m2” (€/m²) header if missing, compute and inject each row’s €/m² value, and make the header link toggle between ascending/descending €/m² sort‐keys.
-// @match        https://www.ss.lv/lv/real-estate/flats/*
+// @match        https://www.ss.lv/*/real-estate/flats/*
+// @match        https://www.ss.com/*/real-estate/flats/*
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
